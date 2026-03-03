@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+@onready var killzone: Area2D = $Killzone
+@onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
 
 const SPEED = 130.0
 const JUMP_VELOCITY = -300.0
